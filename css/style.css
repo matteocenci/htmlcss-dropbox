@@ -239,4 +239,44 @@ hr{
     border: 1px dashed black;
 }
 
+.free-trial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
+    width: 100%;
+    height: 30vh;
+
+    background-color: dodgerblue;
+}
+
+.free-trial h3{
+    font-size: 34px;
+
+}
+
+.QA-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+}
+
+.QA-Box{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+
+    background-color: bisque;
+}
+
+.QA-Box h3{
+    margin: 20px;
+}
+
+.question{
+    margin: 15px;
+}
