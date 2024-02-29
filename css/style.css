@@ -14,9 +14,20 @@ img{
 
 
 .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 7vh;
 
     /* debug */
     background-color: #C27E7E;
+}
+
+.logo{
+    margin: 20px;
+}
+
+.login{
+    margin: 20px;
 }
