@@ -12,6 +12,11 @@ img{
     max-width: 100%;
 }
 
+hr{
+    border: 0.5px solid black;
+    
+}
+
 
 /* HEADER */
 .header-container{
@@ -86,7 +91,7 @@ img{
 
     
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 
     background-color: violet;
 }
@@ -113,7 +118,8 @@ img{
 
 .choose-plan {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    
     width: 60%;
     height: 80vh;
 
@@ -121,10 +127,65 @@ img{
 
 }
 
+.plans{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
 .plan{
     width: calc(100% / 3);
+    margin: 30px;
+    border: 1px solid black;
+}
+
+.plan-enterprise{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    /* debug */
+    background-color: teal;
+
+    
+}
+
+.enterprise{
+    text-align: center;
+
+    width: 100%;
     margin: 10px;
     border: 1px solid black;
 }
 
+.contact-partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60vh;
 
+    /* debug */
+    background-color: darkgreen;
+
+}
+
+.img-partner{
+    width: 60%;
+    height: 40vh;
+    margin: 0 5px;
+    border: 1px solid black;
+}
+
+.descr-partner{
+    width: 40%;
+    height: 40vh;
+    margin: 0 5px;
+
+    border: 1px solid black;
+}
+    
+    
+   
+    
+    
+    
