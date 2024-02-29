@@ -111,4 +111,20 @@ img{
     margin: 20px;
 }
 
+.choose-plan {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 80vh;
+
+    background-color: turquoise;
+
+}
+
+.plan{
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid black;
+}
+
 
