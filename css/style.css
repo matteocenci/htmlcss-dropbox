@@ -61,8 +61,20 @@ img{
 }
 
 .first-content{
-    display: inline;
+    display: flex;
     width: 60%;
     height: 87vh;
     background-color: blanchedalmond;
+}
+
+.description{
+    width: 40%;
+    background-color: chocolate;
+    border: 1px dashed black;
+}
+
+.image{
+    width: 60%;
+    background-color: crimson;
+    border: 1px dashed black;
 }
