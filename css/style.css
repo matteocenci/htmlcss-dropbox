@@ -59,14 +59,17 @@ li a{
 
 
 /* MAIN */
+/* First-Box */
 .first-box{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 0;
 
 
     width: 100%;
-    height: 70vh;
+    height: 60vh;
 
     background-color: #B4D0E7;
 }
@@ -79,7 +82,7 @@ li a{
     font-size: 30px;
 
     /* debug */
-    background-color: gray;
+    /* background-color: gray; */
 
 }
 
@@ -102,24 +105,55 @@ li a{
     background-color: #3C84FB;
 }
 
+.start-trial{
+    
+    color: #F6F6F6;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 30px 0;
+    background-color: #0061FF;
+}
+
+
 .first-content{
+    position: relative;
+   
     display: flex;
     width: 60%;
     height: 87vh;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
+}
+.arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 50px;
+    
+    
+}
+
+.arrow a{
+    scroll-behavior: smooth;
+    color: #000;
 }
 
 .description{
+    padding: 30px 0;
     width: 40%;
-    background-color: chocolate;
-    border: 1px dashed black;
+    /* background-color: chocolate; */
+    /* border: 1px dashed black; */
+    font-size: 24px;
 }
 
 .image{
+    padding: 30px 0;
     width: 60%;
-    background-color: crimson;
-    border: 1px dashed black;
+    /* background-color: crimson; */
+    /* border: 1px dashed black; */
 }
+
+/* /First-Box */
 
 .second-box{
     display: flex;
@@ -140,16 +174,19 @@ li a{
     font-size: 30px;
 
     /* debug */
-    background-color: gray;
+    /* background-color: gray; */
 
 }
 
+
+
+
 .choose{
     display: flex;
-    width: 30%;
+    width: 40%;
     justify-content: space-around;
     flex-direction: row;
-    font-size: 13px;
+    font-size: 20px;
     margin: 20px;
 }
 
