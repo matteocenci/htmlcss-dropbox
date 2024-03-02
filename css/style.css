@@ -195,7 +195,7 @@ li a{
     flex-direction: column;
 
     width: 60%;
-    height: 80vh;
+    /* height: 80vh; */
 
     background-color: turquoise;
 
@@ -204,7 +204,7 @@ li a{
 .plans{
     display: flex;
     justify-content: space-around;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .plan{
@@ -213,7 +213,7 @@ li a{
     text-align: center;
     width: calc(100% / 3);
     margin: 30px;
-    border: 1px solid black;
+    border: 1px solid gray;
 }
 
 .plan-title{
@@ -229,8 +229,16 @@ li a{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
     
 }
+
+.plan-description-enterprise{ftgt
+    position: relative;
+    
+}
+
+
 
 .plan-description h2,strong,div{
     margin: 7px 5px;
@@ -253,6 +261,15 @@ li span{
 .plan-description button{
     margin: 0 10px;
 }
+
+.plan-feature{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
 
 .or{
     margin: 10px 0;
