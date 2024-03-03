@@ -394,8 +394,8 @@ li i{
 
 .find-partner input{
     font-size: 18px;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
+    border-bottom: 2px solid #888686;
+    border-left: 2px solid #888686;
     border-top: 2px solid #E1E1E1;
     border-right: 2px solid #E1E1E1;
     padding: 15px 40px;
@@ -541,17 +541,31 @@ li i{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    /* margin-top: 0; */
 
     width: 100%;
     height: 30vh;
 
-    background-color: dodgerblue;
+    background-color: #B4D0E7;
 }
 
 .free-trial h3{
     font-size: 34px;
 
 }
+
+.free-trial input{
+    font-size: 18px;
+    border-bottom: 2px solid #888686;
+    border-left: 2px solid #888686;
+    border-top: 2px solid #E1E1E1;
+    border-right: 2px solid #E1E1E1;
+    padding: 15px 40px;
+}
+
+.free-trial input:hover{
+    background-color: #B9B9B9;
+} 
 
 .QA-container{
     display: flex;
