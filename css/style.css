@@ -467,7 +467,7 @@ li i{
     flex-direction: row;
     flex-wrap: wrap;
     width: calc(100% / 3);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0;
 }
 
@@ -476,7 +476,7 @@ li i{
     justify-content: center;
     align-items: center;
     width: calc(100% / 2);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0;
     padding: 60px;
 }
@@ -517,7 +517,7 @@ li i{
 .description-brands{
     
     width: calc(100% / 3);
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     background-color: #F5F5F5;
     margin: 0;
 }
