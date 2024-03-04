@@ -303,7 +303,7 @@ li i{
 
 
 .or{
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .or hr{
@@ -588,7 +588,7 @@ li i{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 50px;
+    padding: 50px;
     /* height: 30vh; */
 }
 
