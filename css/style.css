@@ -475,6 +475,11 @@ li i{
 
 }
 
+.card-image p{
+    padding: 10px;
+    padding-left: 0;
+}
+
 .brands-container{
     display: flex;
     width: 100%;
