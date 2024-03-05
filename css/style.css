@@ -225,6 +225,10 @@ li a{
     /* height: 80vh; */
 }
 
+.plans ul li{
+    padding: 5px;
+}
+
 .plan{
     display: flex;
     flex-direction: column;
@@ -293,6 +297,7 @@ li i{
     margin: 0 10px;
 }
 
+
 .plan-feature{
     display: flex;
     justify-content: start;
@@ -303,7 +308,7 @@ li i{
 
 
 .or{
-    margin: 15px 0;
+    margin: 15px 10px;
 }
 
 .or hr{
@@ -636,6 +641,10 @@ li i{
     background-color: white;
     display: none;
     overflow: hidden;
+}
+
+.panel:hover p{
+    display: block;
 }
 
 .footer-container{
